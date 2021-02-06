@@ -5,6 +5,10 @@ class Artist
     @name = name
   end
 
+  def all  
+    @@all 
+  end
+
   def songs
     Songs.all.select{|song| song.artist==self}
   end

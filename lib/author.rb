@@ -7,7 +7,7 @@ class Author
     @@all []
   end
 
-  def self.all 
+  def self.all
     @@all
   end
 
